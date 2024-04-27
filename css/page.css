@@ -1,0 +1,152 @@
+@import './font.css';
+
+div.cabecalho {
+    height: 300px;
+    background-color: #EAEADD;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Monserrat', sans-serif;
+    font-style: normal;
+
+    img.fotoCaba {
+        height: 200px;
+        width: 200px;
+        margin-top: 50px;
+        border-color: black;
+        border-radius: 25px;
+        box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.384);
+    }
+
+    a.mainName {
+        font-size: 35px;
+        margin-top: 100px;
+    }
+
+    a.position {
+        color: rgb(148, 147, 147);
+        display: flex;
+        font-size: 20px;
+        margin-left: 2px;
+    }
+
+    a.location {
+        color: rgb(148, 147, 147);
+        display: flex;
+        font-size: 20px;
+        margin-left: 2px;
+    }
+
+    ul.headerInfos {
+        list-style-type: none;
+        display: flexbox;
+        margin-top: 75px;
+    }
+}
+
+body {
+    background-color: #EAEADD;
+
+    div.aboutMe {
+        background-color: #CDD9CF;
+        font-size: 20px;
+        border-radius: 25px;
+        font-family: 'Monserrat', sans-serif;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        p.aboutMeText {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    }
+
+    div.myExperience {
+        margin-top: 25px;
+        background-color: #C1D0B8;
+        border-radius: 25px;
+    }
+
+    p.xpText {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 25px;
+        font-size: 20px;
+        font-family: 'Monserrat', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    ul.itemMenu {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    li {
+        float: flex;
+
+        div.academicLife_Container {
+            background-color: #4E5A30;
+            width: 250px;
+            height: 500px;
+            border-radius: 25px;
+        }
+    
+        button.academicLife {
+            display: block;
+            margin: auto;
+            padding: 5%;
+            border-radius: 25px;
+            border: 0;
+            width: 100px;
+            position: relative;
+            top: 400px;
+            color: #2B4331;            
+            box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.384);
+        }
+    
+        div.projects_Container {
+            margin-left: 20px;
+            background-color: #4E5A30;
+            width: 250px;
+            height: 500px;
+            border-radius: 25px;
+        }
+    
+        button.projects {
+            display: block;
+            margin: auto;
+            padding: 5%;
+            border-radius: 25px;
+            border: 0;
+            width: 100px;
+            position: relative;
+            top: 400px;
+            color: #2B4331;            
+            box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.384);
+        }
+    
+        div.galery_Container {
+            margin-left: 20px;
+            background-color: #4E5A30;
+            width: 250px;
+            height: 500px;
+            border-radius: 25px;
+        }
+    
+        button.galery {
+            display: block;
+            margin: auto;
+            padding: 5%;
+            border-radius: 25px;
+            border: 0;
+            width: 100px;
+            position: relative;
+            top: 400px;
+            color: #2B4331;            
+            box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.384);            
+        }
+    }
+}
