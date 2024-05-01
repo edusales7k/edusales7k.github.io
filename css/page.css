@@ -47,18 +47,47 @@ div.cabecalho {
 body {
     background-color: #EAEADD;
 
-    div.aboutMe {
+    div.tecnologies {
         background-color: #CDD9CF;
-        font-size: 20px;
         border-radius: 25px;
         font-family: 'Monserrat', sans-serif;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
 
-        p.aboutMeText {
-            margin-left: 150px;
-            margin-right: 150px;
+        a {
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            transition: all 0.3s;
+
+            img {
+                margin-left: 15px;
+                margin-right: 15px;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                transition: all 0.5s;
+
+                &:hover {
+                    background-color: darken(#fafafa, 2%);
+                    transform: translateY(-15px);
+                    transition: all 0.5s;
+
+                    &::after {
+                        transition: all 0.3s;
+                    }
+                    
+                }
+
+                
+
+                
+            }
+
         }
     }
 
@@ -66,7 +95,6 @@ body {
         margin-top: 25px;
         background-color: #C1D0B8;
         border-radius: 25px;
-
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -79,82 +107,45 @@ body {
             font-family: 'Monserrat', 'Arial Narrow', Arial, sans-serif;
             margin-top: 50px;
             font-weight: 600;
-        }  
-    }   
+        }
 
-    ul.itemMenu {
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
+        ul.itemMenu {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
 
-        li {
-            float: flex;
-            margin-bottom: 50px;
+            li {
+                float: flex;
+                margin-bottom: 50px;
 
-            div.academicLife_Container {
-                background-color: #4E5A30;
-                width: 250px;
-                height: 500px;
-                border-radius: 25px;
-                box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.384);
-            }
+                .experience_Container {
+                    background-color: #4E5A30;
+                    width: 250px;
+                    height: 500px;
+                    border-radius: 25px;
+                    box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.384);
+                    margin-right: 20px;
+                }
 
-            button.academicLife {
-                display: block;
-                margin: auto;
-                padding: 5%;
-                border-radius: 25px;
-                border: 0;
-                width: 100px;
-                position: relative;
-                top: 400px;
-                color: #2B4331;
-                box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.384);
-            }
+                .moreInfoButton {
+                    background-color: #ffffff;
+                    text-decoration: none;
+                    margin: auto;
+                    padding: 5%;
+                    border-radius: 25px;
+                    border: 0;
+                    width: 100px;
+                    position: relative;
+                    top: 420px;
+                    color: #2B4331;
+                    box-shadow: -3px 5px 6px rgba(0, 0, 0, 0.384);
 
-            div.projects_Container {
-                margin-left: 20px;
-                background-color: #4E5A30;
-                width: 250px;
-                height: 500px;
-                border-radius: 25px;
-                box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.384);
-            }
-
-            button.projects {
-                display: block;
-                margin: auto;
-                padding: 5%;
-                border-radius: 25px;
-                border: 0;
-                width: 100px;
-                position: relative;
-                top: 400px;
-                color: #2B4331;
-                box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.384);
-            }
-
-            div.galery_Container {
-                margin-left: 20px;
-                background-color: #4E5A30;
-                width: 250px;
-                height: 500px;
-                border-radius: 25px;
-                box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.384);
-            }
-
-            button.galery {
-                display: block;
-                margin: auto;
-                padding: 5%;
-                border-radius: 25px;
-                border: 0;
-                width: 100px;
-                position: relative;
-                top: 400px;
-                color: #2B4331;
-                box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.384);
+                    display: block;
+                    font-family: 'Monserrat', 'Arial Narrow', Arial, sans-serif;
+                    text-decoration: none;
+                    font-weight: 600;
+                }
             }
         }
     }
